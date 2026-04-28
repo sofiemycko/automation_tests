@@ -11,7 +11,7 @@ def test_katalog_kurzu(engeto_page: Page):
     ocekavane_nazvy = {
         "Akademie na 3 měsíce",
         "Balíčky kurzů na 6 měsíců",
-        "Krátkodobé kurzy na 1-4 dny",
+        "Krátkodobé kurzy na 1–4 dny",
     }
 
     # 1. přechod na stránku přehledu kurzů

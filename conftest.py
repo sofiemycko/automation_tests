@@ -6,7 +6,7 @@ from playwright.sync_api import Page, sync_playwright
 # Otevře engeto.cz a odsouhlasí cookies.
 def engeto_page():
     with sync_playwright() as context:
-        browser = context.chromium.launch(headless=False)
+        browser = context.chromium.launch(headless=True)
         context = browser.new_context()
         page = context.new_page()
         page.goto("https://engeto.cz/")
